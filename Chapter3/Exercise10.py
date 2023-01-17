@@ -1,0 +1,25 @@
+languages = ['english', 'deutsch', 'chinese', 'malay', 'japanese']
+print(languages)
+languages[1] = 'french'
+print(languages)
+languages.append('german')
+print(languages)
+languages.insert(3,'hindi')
+print(languages)
+del languages[4]
+print(languages)
+languages.remove('german')
+complex_languages = languages.pop(1)
+print("\nThe language " + complex_languages + " is hard to understand.")
+print(languages)
+
+print(sorted(languages))
+print(sorted(languages,reverse=True))
+languages.reverse()
+print(languages)
+languages.reverse()
+print(languages)
+languages.sort()
+print(languages)
+languages.sort(reverse = True)
+print(languages)
